@@ -7,9 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0DC26D21C37A1E00F80858 /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC25B21C37A1E00F80858 /* UIBarButtonItem+Addition.m */; };
+		7A0DC26E21C37A1E00F80858 /* JWTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DC25C21C37A1E00F80858 /* JWTool.bundle */; };
+		7A0DC26F21C37A1E00F80858 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC25D21C37A1E00F80858 /* UIView+Addition.m */; };
+		7A0DC27021C37A1E00F80858 /* UIColor+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC25E21C37A1E00F80858 /* UIColor+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27121C37A1E00F80858 /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC25F21C37A1E00F80858 /* ImageTool.m */; };
+		7A0DC27221C37A1E00F80858 /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC26021C37A1E00F80858 /* UIButton+Addition.m */; };
+		7A0DC27321C37A1E00F80858 /* UITextField+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26121C37A1E00F80858 /* UITextField+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27421C37A1E00F80858 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC26221C37A1E00F80858 /* UIImage+Addition.m */; };
+		7A0DC27521C37A1E00F80858 /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26321C37A1E00F80858 /* NSString+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27621C37A1E00F80858 /* UIBarButtonItem+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26421C37A1E00F80858 /* UIBarButtonItem+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27721C37A1E00F80858 /* JWTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26521C37A1E00F80858 /* JWTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27821C37A1E00F80858 /* UITextField+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC26621C37A1E00F80858 /* UITextField+Addition.m */; };
+		7A0DC27921C37A1E00F80858 /* UIButton+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26721C37A1E00F80858 /* UIButton+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27A21C37A1E00F80858 /* ImageTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26821C37A1E00F80858 /* ImageTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27B21C37A1E00F80858 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26921C37A1E00F80858 /* UIView+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27C21C37A1E00F80858 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC26A21C37A1E00F80858 /* UIColor+Addition.m */; };
+		7A0DC27D21C37A1E00F80858 /* UIImage+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0DC26B21C37A1E00F80858 /* UIImage+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0DC27E21C37A1E00F80858 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC26C21C37A1E00F80858 /* NSString+Addition.m */; };
 		7A1D24E221C2543E002C36D9 /* JWFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1D24D821C2543E002C36D9 /* JWFrameworkDemo.framework */; };
 		7A1D24E721C2543E002C36D9 /* JWFrameworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D24E621C2543E002C36D9 /* JWFrameworkDemoTests.m */; };
-		7A1D24E921C2543E002C36D9 /* JWFrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1D24DB21C2543E002C36D9 /* JWFrameworkDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1D24E921C2543E002C36D9 /* JWFrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1D24DB21C2543E002C36D9 /* JWFrameworkDemo.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0DC25B21C37A1E00F80858 /* UIBarButtonItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Addition.m"; sourceTree = "<group>"; };
+		7A0DC25C21C37A1E00F80858 /* JWTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JWTool.bundle; sourceTree = "<group>"; };
+		7A0DC25D21C37A1E00F80858 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		7A0DC25E21C37A1E00F80858 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		7A0DC25F21C37A1E00F80858 /* ImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
+		7A0DC26021C37A1E00F80858 /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		7A0DC26121C37A1E00F80858 /* UITextField+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26221C37A1E00F80858 /* UIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
+		7A0DC26321C37A1E00F80858 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26421C37A1E00F80858 /* UIBarButtonItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26521C37A1E00F80858 /* JWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTool.h; sourceTree = "<group>"; };
+		7A0DC26621C37A1E00F80858 /* UITextField+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Addition.m"; sourceTree = "<group>"; };
+		7A0DC26721C37A1E00F80858 /* UIButton+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26821C37A1E00F80858 /* ImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTool.h; sourceTree = "<group>"; };
+		7A0DC26921C37A1E00F80858 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26A21C37A1E00F80858 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		7A0DC26B21C37A1E00F80858 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
+		7A0DC26C21C37A1E00F80858 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
 		7A1D24D821C2543E002C36D9 /* JWFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1D24DB21C2543E002C36D9 /* JWFrameworkDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWFrameworkDemo.h; sourceTree = "<group>"; };
 		7A1D24DC21C2543E002C36D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +86,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A0DC25A21C37A1E00F80858 /* JWTool */ = {
+			isa = PBXGroup;
+			children = (
+				7A0DC26821C37A1E00F80858 /* ImageTool.h */,
+				7A0DC25F21C37A1E00F80858 /* ImageTool.m */,
+				7A0DC26521C37A1E00F80858 /* JWTool.h */,
+				7A0DC26321C37A1E00F80858 /* NSString+Addition.h */,
+				7A0DC26C21C37A1E00F80858 /* NSString+Addition.m */,
+				7A0DC26421C37A1E00F80858 /* UIBarButtonItem+Addition.h */,
+				7A0DC25B21C37A1E00F80858 /* UIBarButtonItem+Addition.m */,
+				7A0DC26721C37A1E00F80858 /* UIButton+Addition.h */,
+				7A0DC26021C37A1E00F80858 /* UIButton+Addition.m */,
+				7A0DC25E21C37A1E00F80858 /* UIColor+Addition.h */,
+				7A0DC26A21C37A1E00F80858 /* UIColor+Addition.m */,
+				7A0DC26B21C37A1E00F80858 /* UIImage+Addition.h */,
+				7A0DC26221C37A1E00F80858 /* UIImage+Addition.m */,
+				7A0DC26121C37A1E00F80858 /* UITextField+Addition.h */,
+				7A0DC26621C37A1E00F80858 /* UITextField+Addition.m */,
+				7A0DC26921C37A1E00F80858 /* UIView+Addition.h */,
+				7A0DC25D21C37A1E00F80858 /* UIView+Addition.m */,
+				7A0DC25C21C37A1E00F80858 /* JWTool.bundle */,
+			);
+			path = JWTool;
+			sourceTree = "<group>";
+		};
 		7A1D24CE21C2543E002C36D9 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7A1D24DB21C2543E002C36D9 /* JWFrameworkDemo.h */,
+				7A0DC25A21C37A1E00F80858 /* JWTool */,
 				7A1D24DC21C2543E002C36D9 /* Info.plist */,
 			);
 			path = JWFrameworkDemo;
@@ -93,6 +155,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0DC27521C37A1E00F80858 /* NSString+Addition.h in Headers */,
+				7A0DC27B21C37A1E00F80858 /* UIView+Addition.h in Headers */,
+				7A0DC27A21C37A1E00F80858 /* ImageTool.h in Headers */,
+				7A0DC27021C37A1E00F80858 /* UIColor+Addition.h in Headers */,
+				7A0DC27921C37A1E00F80858 /* UIButton+Addition.h in Headers */,
+				7A0DC27621C37A1E00F80858 /* UIBarButtonItem+Addition.h in Headers */,
+				7A0DC27D21C37A1E00F80858 /* UIImage+Addition.h in Headers */,
+				7A0DC27321C37A1E00F80858 /* UITextField+Addition.h in Headers */,
+				7A0DC27721C37A1E00F80858 /* JWTool.h in Headers */,
 				7A1D24E921C2543E002C36D9 /* JWFrameworkDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0DC26E21C37A1E00F80858 /* JWTool.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0DC26F21C37A1E00F80858 /* UIView+Addition.m in Sources */,
+				7A0DC27121C37A1E00F80858 /* ImageTool.m in Sources */,
+				7A0DC26D21C37A1E00F80858 /* UIBarButtonItem+Addition.m in Sources */,
+				7A0DC27821C37A1E00F80858 /* UITextField+Addition.m in Sources */,
+				7A0DC27421C37A1E00F80858 /* UIImage+Addition.m in Sources */,
+				7A0DC27E21C37A1E00F80858 /* NSString+Addition.m in Sources */,
+				7A0DC27221C37A1E00F80858 /* UIButton+Addition.m in Sources */,
+				7A0DC27C21C37A1E00F80858 /* UIColor+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,20 +416,30 @@
 		7A1D24ED21C2543E002C36D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PTSJUSY2G8;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JWFrameworkDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jw.JWFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -360,20 +450,30 @@
 		7A1D24EE21C2543E002C36D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PTSJUSY2G8;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = JWFrameworkDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jw.JWFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
