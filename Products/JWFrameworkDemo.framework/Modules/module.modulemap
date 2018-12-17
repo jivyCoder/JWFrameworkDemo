@@ -1,0 +1,6 @@
+framework module JWFrameworkDemo {
+  umbrella header "JWFrameworkDemo.h"
+
+  export *
+  module * { export * }
+}

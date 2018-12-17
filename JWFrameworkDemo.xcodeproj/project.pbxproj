@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7A08557521C73CF9002D3634 /* test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A08557821C73CF9002D3634 /* Build configuration list for PBXAggregateTarget "test" */;
+			buildPhases = (
+				7A08557921C73D01002D3634 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		7A0DC26D21C37A1E00F80858 /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DC25B21C37A1E00F80858 /* UIBarButtonItem+Addition.m */; };
 		7A0DC26E21C37A1E00F80858 /* JWTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DC25C21C37A1E00F80858 /* JWTool.bundle */; };
@@ -213,9 +227,13 @@
 		7A1D24CF21C2543E002C36D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = jw;
 				TargetAttributes = {
+					7A08557521C73CF9002D3634 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					7A1D24D721C2543E002C36D9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -238,6 +256,7 @@
 			targets = (
 				7A1D24D721C2543E002C36D9 /* JWFrameworkDemo */,
 				7A1D24E021C2543E002C36D9 /* JWFrameworkDemoTests */,
+				7A08557521C73CF9002D3634 /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +278,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A08557921C73D01002D3634 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n\n# 例如: FMK_NAME = \"MyFramework\"\n\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root folder of the current project.\n\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n\n# Clean and Building both architectures.\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A1D24D421C2543E002C36D9 /* Sources */ = {
@@ -295,6 +334,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		7A08557621C73CF9002D3634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTSJUSY2G8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A08557721C73CF9002D3634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTSJUSY2G8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		7A1D24EA21C2543E002C36D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -518,6 +575,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7A08557821C73CF9002D3634 /* Build configuration list for PBXAggregateTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A08557621C73CF9002D3634 /* Debug */,
+				7A08557721C73CF9002D3634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7A1D24D221C2543E002C36D9 /* Build configuration list for PBXProject "JWFrameworkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
